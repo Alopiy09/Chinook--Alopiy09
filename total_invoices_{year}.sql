@@ -1,0 +1,1 @@
+SELECT count (*) FROM Invoice WHERE year(InvoiceDate) = '2009' OR year(InvoiceDate) ='2011'
